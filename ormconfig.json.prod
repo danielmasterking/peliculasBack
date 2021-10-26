@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": "5432",
+  "username": "postgres",
+  "password": "300438daniel",
+  "database": "smartsoft",
+  "entities": ["dist/entity/**/*.js"],
+  "logging": true,
+  "synchronize": true,
+  "ssl": false,
+  "extra": {
+    "ssl": {
+      "rejectUnauthorized": false
+    }
+  }
+}
